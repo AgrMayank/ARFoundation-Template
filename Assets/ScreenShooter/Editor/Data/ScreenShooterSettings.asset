@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b023249ec8aa50142ad62b315bc5f090, type: 3}
+  m_Name: ScreenShooterSettings
+  m_EditorClassIdentifier: 
+  Camera: {fileID: 0}
+  ScreenshotConfigs:
+  - Name: Nexus 4 Portrait
+    Width: 768
+    Height: 1280
+    Type: 0
+  - Name: iPad Hi-Res Portrait
+    Width: 1536
+    Height: 2048
+    Type: 0
+  - Name: 4K UHD
+    Width: 3840
+    Height: 2160
+    Type: 0
+  Tag: 01_
+  AppendTimestamp: 0
+  SaveFolder: Screenshots
