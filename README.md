@@ -1,6 +1,13 @@
 # ARFoundation Template
 A Custom ARFoundation Template with __"must-have"__ _Scripts_ & _Packages_ pre-installed.
 
+![GitHub issues](https://img.shields.io/github/issues/AgrMayank/ARFoundation-Template?label=Issues&style=flat-square)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/AgrMayank/ARFoundation-Template?label=Pull%20Requests&style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/AgrMayank/ARFoundation-Template?label=Last%20Commit&style=flat-square)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/AgrMayank/ARFoundation-Template?label=Commit%20Activity&style=flat-square)
+![GitHub All Releases](https://img.shields.io/github/downloads/AgrMayank/ARFoundation-Template/total?label=Downloads&style=flat-square)
+![GitHub repo size](https://img.shields.io/github/repo-size/AgrMayank/ARFoundation-Template?label=Repo%20Size&style=flat-square)
+
 ## Preinstalled Packages
 - _Device Simulator_ (Package Manager)
 - _GitHub for Unity_ (Asset Store)
