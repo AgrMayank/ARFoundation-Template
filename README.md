@@ -31,3 +31,7 @@ A Custom ARFoundation Template with __"must-have"__ _Scripts_ & _Packages_ pre-i
 ## Note
 - Compatible with Unity **2019**.**3 and above**.
 - For older Unity versions, clone the repo and move the **Assets** folder into your current/new Unity project.
+
+<hr>
+
+Made with ❤ by [AgrMayank](https://AgrMayank.GitHub.io)
