@@ -10,6 +10,14 @@ public class LevelManager : MonoBehaviour
 
     private float _progress = 0f;
 
+    private void Start()
+    {
+        if (CrossfadeAnim == null)
+        {
+            CrossfadeAnim = new GameObject("Crossfade Anim");
+        }
+    }
+
     public void LoadLevel(string levelName)
     {
         levelToLoad = levelName;

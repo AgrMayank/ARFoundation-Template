@@ -6,7 +6,7 @@ using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
 
 [RequireComponent(typeof(ARPlaneManager))]
-public class PlaceObjectOnPlane : MonoBehaviour 
+public class PlaceObjectOnPlane : MonoBehaviour
 {
     public GameObject placedPrefab;
 
@@ -14,7 +14,7 @@ public class PlaceObjectOnPlane : MonoBehaviour
 
     public ARPlaneManager planeManager;
 
-    private void Awake() 
+    private void Awake()
     {
         planeManager = GetComponent<ARPlaneManager>();
         planeManager.planesChanged += PlaneChanged;
@@ -22,7 +22,7 @@ public class PlaceObjectOnPlane : MonoBehaviour
 
     private void PlaneChanged(ARPlanesChangedEventArgs args)
     {
-        if(args.added != null && placedObject == null)
+        if (args.added != null && placedObject == null)
         {
             ARPlane arPlane = args.added[0];
             placedObject = Instantiate(placedPrefab, arPlane.transform.position, Quaternion.identity);
