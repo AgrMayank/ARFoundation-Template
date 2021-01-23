@@ -22,6 +22,10 @@ A Custom ARFoundation Template with __"must-have"__ _Scripts_ & _Packages_ pre-i
 - _CameraFacing.cs_ (Objects always face the camera)
 - _SwipeRotate.cs_ (Swipe to rotate objects on local axis)
 - _OpenURL.cs_ (Open URL in browser)
+- _DestroyAfterSec.cs_ (Destroy gameObject this script is attached to after given time)
+- _MoveTowards.cs_ (Move towards a gameObject)
+- _RotateAround.cs_ (Rotate around a gameObject)
+- _RotateContinuously.cs_ (Rotate Continuously on the y-axis)
 
 ## How to Use?
 - Fork the repository to use it as a Template.
